@@ -1,0 +1,11 @@
+program_name=$0
+name=$1
+surname=$2
+number_of_arg=$#
+if [[ $# -eq 1 ]]; then
+	echo "Invalid Argumnet passed"
+fi
+echo "Program Name : $program_name"
+echo "Name : $name"
+echo "Suname : $surname"
+echo "Number of Argumnet passed : $number_of_arg"
